@@ -4,6 +4,7 @@
   FallingController - контроллер падения;
   ShelvingController - контроллер "приклеивания" к полкам;
   DraggableItemRectTransformController - контроллер rectTransforn.
+  
 Когда игрок держит яблоко, яблоко перемещается при помощи DraggableItemRectTransformController, методами OnDrag, OnBeginDrag.
 
 Когда игрок отпускает яблоко, если оно не на полу, то начинается корутина ( в классе DraggableItem метод OnEndDrag) , которая перемещает предмет вниз за некоторое время, 
