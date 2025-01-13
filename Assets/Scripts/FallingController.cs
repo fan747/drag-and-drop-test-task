@@ -30,6 +30,7 @@ public class FallingController
     public IEnumerator FallingCoroutine()
     {
         float timer = 0f;
+        float normalizedTimer = timer / GameConstants.FallingTime;
         //точка падения + половина спрайта предмета, что бы визуально поставить его не на край спрайта.
         Vector3 fallPoint = new Vector3 (GetBottomColliderPoint().x, GetBottomColliderPoint().y + _transformController.GetRectTransformHalfHeight());
         //стартовая точка rectTransform
@@ -38,7 +39,6 @@ public class FallingController
         //обычный таймер
         while (timer < GameConstants.FallingTime)
         {
-            float normalizedTimer = timer / GameConstants.FallingTime;
             timer += Time.deltaTime;
 
             //передвижение rectTransform через контроллер 
