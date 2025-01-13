@@ -23,4 +23,4 @@
 
 Перемещение происходит на поверхностях за счет проверок булевых в классе DraggableItem.
 
-Видео: https://disk.yandex.ru/client/disk?idApp=client&dialog=slider&idDialog=%2Fdisk%2F2025-01-11%2006-13-22.mp4
+Видео: [https://disk.yandex.ru/client/disk?idApp=client&dialog=slider&idDialog=%2Fdisk%2F2025-01-11%2006-13-22.mp4](https://disk.yandex.ru/i/n5o4-0h_rr_BuA)
