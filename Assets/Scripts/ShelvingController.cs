@@ -56,11 +56,11 @@ public class ShelvingController
         Vector3 startColliderPosition = _sourceCollider.transform.position;
 
         float timer = 0f;
+        float normalizedTimer = timer / GameConstants.FallingToShelfTime;
 
         //Обычный таймер
         while (timer < GameConstants.FallingToShelfTime)
         {
-            float normalizedTimer = timer / GameConstants.FallingToShelfTime;
             timer += Time.deltaTime;
 
             //От стартовой позиции к поверхности
