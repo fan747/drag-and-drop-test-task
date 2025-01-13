@@ -22,3 +22,5 @@
 ближайшую точку коллайдера полки ( метод SnapToClosestPoin ) и переместит яблоко туда.
 
 Перемещение происходит на поверхностях за счет проверок булевых в классе DraggableItem.
+
+Видео: https://disk.yandex.ru/client/disk?idApp=client&dialog=slider&idDialog=%2Fdisk%2F2025-01-11%2006-13-22.mp4
